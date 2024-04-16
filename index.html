@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil de Usuario</title>
+    <style>
+        #miFooter {
+            background: blue;
+            margin: 15px;
+            padding: 20px;
+            color: white;
+        }
+
+        .contenido {
+            background: red;
+            margin: 10px;
+            padding: 10px;
+            color: white;
+        }
+
+        .rounded {
+            border-radius: 5px;
+        }
+    </style>
 </head>
+
 <body>
     <h1>Perfil de Usuario</h1>
+
+
+    <!-- cajas con Clases para CSS -->
+    <div class="contenido">
+        contenido 1
+    </div>
+    <div class="contenido rounded">
+        contenido 2
+    </div>
+    <span class="contenido rounded">
+        contenido 3
+    </span>
+
+
+    <div style="margin: 20px;">
+        hola
+    </div>
+
+
+    <!-- caja con ID para CSS -->
+    <div id="miFooter" class="rounded">
+        Footer
+    </div>
+
+
+    <style>
+        p {
+            color: red;
+            width: 150px;
+            height: 50px;
+            border: 1px solid green;
+        }
+
+        .ej1 {
+            /* No se muestra en pantalla */
+            display: none;
+        }
+
+        .ej2 {
+            /* Se muestra como inline, y NO posee propiedades de alto y ancho */
+            display: inline;
+        }
+
+        .ej3 {
+            display: block;
+        }
+
+        .ej4 {
+            display: inline-block;
+        }
+    </style>
+
+    <h1>Propiedades de display</h1>
+
+    <h2>Display: None</h2>
+
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eaque error doloremque nisi vero <p class="ej1">
+            Hola CEI!</p> veritatis laboriosam provident labore. Quasi molestias modi hic, aperiam sed possimus dolorem
+        libero accusamus iure quidem?
+    </div>
+
+    <h2>Display: Inline</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eaque error doloremque nisi vero <p class="ej2">
+            Hola CEI!</p> veritatis laboriosam provident labore. Quasi molestias modi hic, aperiam sed possimus dolorem
+        libero accusamus iure quidem?
+    </div>
+
+    <h2>Display: Block</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eaque error doloremque nisi vero <p class="ej3">
+            Hola CEI!</p> veritatis laboriosam provident labore. Quasi molestias modi hic, aperiam sed possimus dolorem
+        libero accusamus iure quidem?
+    </div>
+
+    <h2>Display: Inline Bock</h2>
+    <div>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eaque error doloremque nisi vero <p class="ej4">
+            Hola CEI!</p> veritatis laboriosam provident labore. Quasi molestias modi hic, aperiam sed possimus dolorem
+        libero accusamus iure quidem?
+    </div>
+
+
+
+
 </body>
+
 </html>
